@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="rhetts-stylesheet.css">
+</head>
+
+<body>
+    <div class="parts-requests">
+        <header>
+            <h1>Parts requests</h1>
+        </header>
+        <!--Drop Down Menu-->
+        <form class="form" id="form" novalidate>
+            <div class="form-control-select">
+                <label for="bish's-locations">Which Bish's RV store are you requesting a part from?</label>
+                <select name="bish's-locations" id="location">
+                    <option value="Idaho Falls">Idaho Falls, Idaho</option>
+                </select>
+            </div>
+
+            <!--Customer Info-->
+            <div class="form-control">
+                <label>Name</label>
+                <input type="text" placeholder="Happy Camper" id="customer" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small class="error-message">You must input your name</small>
+            </div>
+            <div class="form-control">
+                <label>Phone Number</label>
+                <input type="text" placeholder="(000) 000 - 0000" id="phone_number" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Did You Buy Your Trailer from Bish's?</label>
+                <input type="text" placeholder="Yes / No" id="store" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+
+            <!-- Trailer Info-->
+            <div class="form-control">
+                <label>Trailer Year</label>
+                <input type="text" placeholder="2010 - Current" id="trailer_year">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Trailer Manufacturer</label>
+                <input type="text" placeholder="Jayco / Dutchmen / Grand Design / Forest River / Northwood"
+                    id="trailer_manufacturer" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Trailer Make</label>
+                <input type="text" placeholder="Jayflight / Aspen Trail / Imagine / Wildwood / Nash" id="trailer_make">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>Trailer Model (Optional)</label>
+                <input type="text" placeholder="24RBS / 17BH / 15BH / 174BHLE / 17K " id="trailer_model">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label>17 - Digit VIN</label>
+                <input type="text" placeholder="1T9ABCDEFGH1234567" id="trailer_VIN" required>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <button>Submit Parts Request</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+07.25.23
+I have an idea to create a new section for Bish's RV's website that will allow customers to go and create parts orders.
+Features:
+- Enter user info: name, phone number, email
+- Enter trailer info: VIN, make, model, year,
+- Allow customers to describe their problem and what they want to do to solve it.
+- Allow customers to attach photos of the issue.
+- Eventually create a QR Code that customers can scan then they can go home and already have the site up for them to start filling out information.
+
+I have 6 weeks to accomplish this. Here's my plan:
+Week 1: Introduction
+Learn HTML and CSS fundamentals for structuring and styling web pages.
+Complete online tutorials and exercises to practice creating basic web pages.
+Watch Youtube video tutorials, look at Bish's Code and see how you can apply what they are already using.
+
+
+Week 2: Frontend Development
+Dive deeper into frontend development with JavaScript.
+Learn about DOM manipulation and event handling to create interactive forms.
+Practice creating and validating text box entries.
+
+Week 3: Server-Side Programming
+Choose a backend programming language such as Python, PHP, or Node.js.
+Learn the basics of server-side programming, including handling HTTP requests and responses.
+Set up a simple server and create API endpoints to receive form data.
+
+Week 4: Database Integration
+Explore different types of databases like MySQL, PostgreSQL, or MongoDB.
+Learn how to connect your backend to the chosen database.
+Practice storing and retrieving data from the database.
+
+Week 5: Building Order Placement System
+Design and create the frontend of your order placement system using HTML, CSS, and JavaScript.
+Implement form validation to ensure the data entered is correct.
+Connect the frontend to the backend API endpoints to send the form data to the server.
+
+Week 6: Database Management and Accessibility
+Learn advanced database concepts like data modeling, querying, and security.
+Implement database management techniques to organize and optimize your data.
+Set up access controls and security measures for database access.
+Test and refine your website, ensuring that the stored data is accessible from another location.
+
+The only part of this process that I have any grasp on so far is week 1. The rest will be new.
+My idea is to use the Bish's Website as a basic format for everything that I want to accomplish. The HTML and CSS styling are already right there...
+
+My code starts on line 650.
+
+I've deleted the majority of the body of the home page on Bish's website. I'm having an issue getting rid of that sidebar time that pops up.
+I don't know anything about JS so maybe.
+
+I'm going to work for the rest of the night on some tutorials with JS.
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
+
+I only worked for an hour today.
+
+07.27.23
+I made the input bubbles today and put placeholder text that shows sample make, model, year. Trying to figure out how to make it so that
+that customer can't submit the form until they enter an entire 17 digit VIN.
+
+I also am having troubles getting my CSS file to connect with my HTML? Could this be because the code I am using from Bish's is overriding the CSS that I am using?
+I will find out tomorrow. I might just find it to be easier to make all of this code on a seperate file and then troubleshoot that way,
+instead of working around the existing code. We'll see tomorrow. 
+
+I worked for almost an hour today.
+
+08.01.23
+https://blog.hubspot.com/website/html-dropdown -> This is a source for the dropdown menu.
+I realized that I should include the ability for the submission to go to different emails so that every store isn't receiving every customer order.
+For right now I am only including Idaho Falls, Idaho as a location for Bish's so that I can figure out how to get specific parts requests to submit to that location.
+
+
+I realized last weekend that I should allow the website to show customer info and show which store they are submitting to so I am including that now.
+
+Today I finished the outline that I want just for the base website, not how it will implement into Bish's RV's website. That will come later. For now I just want to 
+figure out how to do everything and then make adjustments later on. Today I also worked on the JS. It's surprisingly similar to other languages that I have worked
+with (Python, C#). I need to work on writing seperate functions for each input field to insure that the customer is giving me complete information.
+
+- Goal for tomorrow, write seperate functions for JS. 
+
+I worked for about 1.5 hours.
+
+08.02.23
+I just spent 40 minutes troubleshooting why my JS wouldn't show up. Only the default HTML 5 message would show up.
+I had no clue about the "novalidate" attribute. Very frustrating.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions 
+This is my source for the "formatPhoneNumber()" function.
+
+I recognize that I need to add other functions like attaching photos, as well as another text box to explain the issue with your trailer and what you need.
+But, I want to move forward with how to set up the backend of the website because that it what I am truly interested in and I know nothing about it.
+
+- later in the night -
+I'm working on the server side now, looking into Django(Web Framework for Python). Tomorrow morning I'll do some projects with it and see how it works.
+
+08.03.23
+Starting to work on Django, I spent the whole morning just figuring out commands and installing software.
+2 hours
+
+08.05.23 
+Going through a tutorial video this morning to create my first project.
+https://www.youtube.com/watch?v=rHux0gMZ3Eg 
+https://stackoverflow.com/questions/18713086/virtualenv-wont-activate-on-windows -> I needed this to get access to open my virtual environment.
+
+I worked for 2 hours this morning.
+
+08.06.23
+I spent all morning doing a django tutorial. 
+
+I worked for 2 hours
+
+08.08.23
+I'm spending all morning doing more django tutorials.
+
+I worked for 2 hours
+
+08.16.23
+I'm getting confused on what this Django Framework is actually supposed to do for me. I understand that it is supposed to help me set up the links and urls and everything. 
+Do I really need to do this before setting up a database? Or am I just wasting my time? I only have 3 and 1/2 weeks left to do this project. It feels like I've made no progress.
+I'm going to move on to MySQL and setting up a database. If I find that I will need to finish setting things up on Django in order to move forward, then I will come back.
+
+https://www.youtube.com/watch?v=btjBNKP49Rk 
+https://www.tutorialspoint.com/can-we-build-a-website-from-python 
+
+I worked for an hour this morning.
+
